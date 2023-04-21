@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    int a, x=0, r;
+    cin>>a;
+    ;
+    while(a != 0) {
+        r = a % 10;
+        x = x * 10 + r;
+        a /= 10;
+    }
+    cout<<x;
+}
